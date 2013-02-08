@@ -126,7 +126,57 @@ h3{
 		font-weight       : normal;
 		color             : @footerColour;
 	}
+
+	hr{
+		border-top-width  :5px;
+	}
+	.communicate{
+		h4:first-child{
+			color         : @mainBlue;
+			float:left;
+		}
+
+
+		#social a{
+			background              :url(../img/sprites.png) top left no-repeat;
+			width                   :42px;
+			height                  :42px;
+			text-indent             : -9999px;
+			float                   :right;
+			margin-left             :6px;
+		}
+		#social a:hover{
+			background-position     :0 -42px;	
+		}
+
+		a#socPhone{background-position:-48px 0;}
+		a#socEmail{background-position:-96px 0;}
+		a#socFace{background-position:-144px 0;}
+
+		a#socPhone:hover{background-position:-48px -42px;}
+		a#socEmail:hover{background-position:-96px -42px;}
+		a#socFace:hover{background-position:-144px -42px;}
+
+	}
+	
 }
+
+
+.home-boxes{
+	div {padding-top:6px;}
+	.home-box1{background:url(../img/home-icon1.png) no-repeat 0 0px;}
+	.home-box2{background:url(../img/home-icon2.png) no-repeat 0 0px;}
+	.home-box3{background:url(../img/home-icon3.png) no-repeat 0 0px;}
+
+	h2, h3 {
+		 margin-left     : 65px;
+		 margin-top      : 0;
+	}
+	h2 { line-height     : 26px;
+		 margin-bottom   : 3px;
+	}
+}
+
 
 
 
