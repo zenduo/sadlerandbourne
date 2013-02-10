@@ -1,0 +1,62 @@
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+	.navbar-inner .container{
+		/*width:440px;*/
+		width:auto;
+		padding-left:15px;
+		padding-right:15px;
+	}
+
+	.nav-collapse.collapse{
+		float:none;
+	}
+	.navbar-inverse .nav-collapse .nav{
+	padding-top:0px;
+	
+	> li {
+		a{
+			font-weight: normal;
+			padding: 9px 13px 9px 13px;
+			font-size:17px;
+			.rounded-corners(0);
+		}
+		a:hover{
+			text-decoration: underline;
+			color: @greyAccent;
+		}
+			.selected, .selected:hover{
+				text-decoration: none;
+				background: @mainBlue;
+			}
+
+		ul.dropdown-menu li{
+			a{
+				color: #fff;
+				font-size:14px;
+			}
+			a:hover{
+				color: @greyAccent;
+			}
+		} 
+
+		}
+	}
+
+
+	.home-boxes{
+		div {
+			background: #ff9900;
+			margin-bottom:30px;
+			border-bottom: 2px solid @greyAccent;
+			padding-bottom:30px;
+
+		}
+		div:last-child{
+			margin-bottom:0px;
+			padding-bottom:0px;
+			border:none;
+		}
+	}	
+
+}

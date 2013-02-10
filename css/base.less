@@ -1,0 +1,75 @@
+.rounded-corners (@radius: 8px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+
+body{font-family: "museo",serif;}
+hr{border-color:@greyAccent;}
+input{font-family: "museo",serif;}
+h1,h2,h3,h4,h5{
+	color:@mainBlue;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h2{
+	font-size      : 30px;
+	line-height    : 32px;
+
+}
+h3{
+	font-size      : 17px;
+	line-height    : 19px;
+	font-weight    : normal;
+	text-transform : none; 
+	color          : @greyBodyAccent;
+
+}
+
+
+.btn {
+  padding: 6px 20px;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  background-color: @mainBlue;
+  background-image: -moz-linear-gradient(top, @lightGradBlue, @mainBlue);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(@lightGradBlue), to(@mainBlue));
+  background-image: -webkit-linear-gradient(top, @lightGradBlue, @mainBlue);
+  background-image: -o-linear-gradient(top, @lightGradBlue, @mainBlue);
+  background-image: linear-gradient(to bottom, @lightGradBlue, @mainBlue);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4b88a4', endColorstr='#ff226f91', GradientType=0);
+  *background-color: @mainBlue;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  border: none;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #fff;
+  background-color: @mainBlue;
+  *background-color: @mainBlue;
+}
+
+@btnGradDark:#2d2f2f;
+@btnGradLight:#545555;
+.btn:hover {
+  background-color: @btnGradDark;
+  background-image: -moz-linear-gradient(top, @btnGradLight, @btnGradDark);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(@btnGradLight), to(@btnGradDark));
+  background-image: -webkit-linear-gradient(top, @btnGradLight, @btnGradDark);
+  background-image: -o-linear-gradient(top, @btnGradLight, @btnGradDark);
+  background-image: linear-gradient(to bottom, @btnGradLight, @btnGradDark);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4b88a4', endColorstr='#ff226f91', GradientType=0);
+  *background-color: @btnGradDark;
+}
