@@ -107,15 +107,41 @@
 
 
 		#social a{
+			background-color:none;
 			background              :url(../img/sprites.png) top left no-repeat;
 			width                   :42px;
 			height                  :42px;
 			text-indent             : -9999px;
 			float                   :right;
 			margin-left             :6px;
+			/* hack to use bootstrap btn class for toggle*/
+			padding: 0;
+			margin-bottom: 0;
+			font-size: 0px;
+			line-height: 0px;
+			filter: none;
+
+			border: none;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			/* end hack*/
+
+
 		}
 		#social a:hover{
-			background-position     :0 -42px;	
+			background-position     :0 -42px;
+
+			/* hack to use bootstrap btn class for toggle*/
+			background-color: none;
+			background-image:url(../img/sprites.png) top left no-repeat;
+			filter: none;
+			*background-color: none;
+			-webkit-transition: none;
+			-moz-transition: none;
+			-o-transition: none;
+			transition: none;
+			/* end hack*/
 		}
 
 		a#socPhone{background-position:-48px 0;}
