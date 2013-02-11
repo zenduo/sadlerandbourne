@@ -1,66 +1,68 @@
 <?php include('includes/header.php');?>
+  <!-- END MAIN CONTAINER -->
+  <div class="container">
+    <!-- ABOUT TOP -->
+    <div class="row about-top">
+      
+      <!-- ABOUT TEXT -->
+      <div class="span6">
+        <h1><em>About</em> us</h1>
+        <p><strong>The path of the righteous man is beset on all sides by the iniquities of the selfish.</strong></p>
+        <p>Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper.</p>
+        <p>And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. Thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers.</p>
+      </div><!-- ABOUT TEXT END -->
 
-    <!-- HOME TOP -->
-    <div class="row">
+      <!-- ????? -->
+      <div class="span6 hidden-phone">
+        <img src="img/delete.jpg" alt="">
+      </div><!-- END ???? -->
 
-
-      <!-- CAROUSEL -->
-      <div class="span7">
-        <div id="myCarousel" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/delete.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="img/delete.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="img/delete.jpg" alt="">
-            </div>
-          </div>
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
-        </div>
-      </div><!-- END CAROUSEL -->
-
-
-      <!-- REQUEST ESTIMATE -->
-      <div class="span5 home-quote">
-        <h1>want to chat <br/>or require a<br/><strong>free quotation?</strong></h1>
-        <p><strong>Leave us your details and we'll call you back!</strong></p>
-        <form id="form" name="form" method="post" action="">
-        <input type="text" name="name" id="name" value="Your name">
-        <input type="text" name="name" id="phone" value="Telephone Number">
-        <input type="submit" value="Call me back!" class="btn">
-        </form>
-      </div><!-- END REQUEST ESTIMATE -->
-
-
-    </div><!-- END HOME TOP -->
+    </div><!-- END ABOUT TOP -->
 
     <hr>
+    <h1><em>The</em> team</h1>
 
-    <!-- HOME 3 BOXES -->
-    <div class="row home-boxes">
-      <div class="span4 home-box1">
-        <h2>New build</h2>
-        <h3>Sub heading here</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis modi nobis ipsa earum perferendis corrupti temporibus cum eaque necessitatibus eius distinctio sed velit commodi ex consectetur porro vero veniam possimus!</p>
-        <a href="" class="btn">Read more ></a>
+    <ul id="facesTabs" class="nav nav-tabs visible-phone">
+      <li class="active"><a href="#carl" data-toggle="tab">Carl</a></li>
+      <li><a href="#jay" data-toggle="tab">Jay</a></li>
+      <li><a href="#karl" data-toggle="tab">Karl</a></li>
+    </ul>
+
+    <div id="myTabContent" class="row faces tab-content" >
+      
+      <div class="span4 tab-pane fade in active" id="carl">
+        <img src="img/carl.jpg" alt="">
+        <h2>Carl Sadler-hughes</h2>
+        <h3>GAS &amp; Underfloor Heating Specialist</h3>
+        <p>Alla stora beslut bör fattas baserat på fakta. Genom att förstå kunden och målgruppen, problem och möjligheter ser vi till att varje aspekt av webbplatsen.</p>
+        <p>Alla stora beslut bör fattas baserat på fakta. Genom att förstå kunden och målgruppen, problem.</p>
       </div>
-      <div class="span4 home-box2">
-        <h2>Renovation</h2>
-        <h3>Sub heading here</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officiis quas odio aliquam ad totam eum consequuntur? Quod accusantium debitis velit inventore ipsa fugiat quasi totam perferendis ea nam ut!</p>
-        <a href="" class="btn">Read more ></a>
+
+      <div class="span4 tab-pane fade" id="jay">
+        <img src="img/jay.jpg" alt="">
+        <h2>Jason Bourne</h2>
+        <h3>Oil &amp; Renewable Source Specialist</h3>
+        <p>Alla stora beslut bör fattas baserat på fakta. Genom att förstå kunden och målgruppen, problem och möjligheter ser vi till att varje aspekt av webbplatsen.</p>
+        <p>Alla stora beslut bör fattas baserat på fakta. Genom att förstå kunden och målgruppen, problem.</p>
       </div>
-      <div class="span4 home-box3">
-        <h2>Renewable</h2>
-        <h3>Sub heading here</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat eaque ut iste dicta corporis earum doloribus dolorem at ipsam natus exercitationem accusantium blanditiis dolor excepturi veniam minus iure deserunt voluptatibus.</p>
-        <a href="" class="btn">Read more ></a>
+
+      <div class="span4 tab-pane fade" id="karl">
+        <img src="img/carl.jpg" alt="">
+        <h2>Karl Gross</h2>
+        <h3>Expert at making tea and carrying tools</h3>
+        <p>Alla stora beslut bör fattas baserat på fakta. Genom att förstå kunden och målgruppen, problem och möjligheter ser vi till att varje aspekt av webbplatsen.</p>
+        <p>Alla stora beslut bör fattas baserat på fakta. Genom att förstå kunden och målgruppen, problem.</p>
       </div>
-    </div><!-- END HOME 3 BOXES -->
+    </div>
+    
+
+
+
+            
+            
+
+           
+      
 
     <hr>
 

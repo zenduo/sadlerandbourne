@@ -1,5 +1,7 @@
 <?php include('includes/header.php');?>
-
+  <!-- END MAIN CONTAINER -->
+  <div class="container">
+    
     <!-- HOME TOP -->
     <div class="row">
 

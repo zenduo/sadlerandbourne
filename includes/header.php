@@ -52,6 +52,3 @@
       </div>
     </div>
   </div><!-- END NAVIGATION -->
-
-  <!-- END MAIN CONTAINER -->
-  <div class="container">
