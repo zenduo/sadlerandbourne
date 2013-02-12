@@ -58,13 +58,27 @@
 
 
 
-            
-            
+   </div>
 
-           
-      
+   <div class="container aboutTwitter">
 
-    <hr>
+    <div class="row">
+      <div class="span5">
+        <h4>follow us on twitter: <a href="http://twitter.com/sadlerandbourne/" target="_blank">@SadlerAndBourne</a></h4>
+      </div>
+      <div class="span7"><p>“This is one hundred and forty characters and its pretty long if you ask me. I'm getting bored here so thank god its almost over... done!”</p></div>
+    </div>
+
+</div>
+
+
+  
+  
+
+  <div class="container">       
+      <hr>
+
+    
 
     <!-- LOGOS -->
     <div class="row">

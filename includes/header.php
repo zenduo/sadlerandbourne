@@ -32,7 +32,7 @@
         <a class="brand" href="./index.html"><img src="img/sadler-and-bourne-logo-plumbers-liskeard.png" /></a>
         <div class="nav-collapse collapse pull-right">
           <ul class="nav nav-pills">
-            <li><a href="" class="selected">Home</a></li>
+            <li><a href="./index.php" class="selected">Home</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -46,7 +46,7 @@
             <li><a href="">Portfolio</a></li>
             <li><a href="">Accreditations</a></li>
             <li><a href="">About</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="">Contact</a></li>
           </ul>
         </div>
       </div>
