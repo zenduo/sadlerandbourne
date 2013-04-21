@@ -5,7 +5,6 @@
     <!-- HOME TOP -->
     <div class="row">
 
-
       <!-- CAROUSEL -->
       <div class="span7">
         <div id="myCarousel" class="carousel slide">
